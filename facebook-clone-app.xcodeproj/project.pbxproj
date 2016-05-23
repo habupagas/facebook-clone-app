@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ED4163B1CF3BEE5007DE220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4163A1CF3BEE5007DE220 /* AppDelegate.swift */; };
+		9ED4163D1CF3BEE5007DE220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4163C1CF3BEE5007DE220 /* ViewController.swift */; };
+		9ED416401CF3BEE5007DE220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4163E1CF3BEE5007DE220 /* Main.storyboard */; };
+		9ED416431CF3BEE5007DE220 /* facebook_clone_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ED416411CF3BEE5007DE220 /* facebook_clone_app.xcdatamodeld */; };
+		9ED416451CF3BEE5007DE220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED416441CF3BEE5007DE220 /* Assets.xcassets */; };
+		9ED416481CF3BEE5007DE220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED416461CF3BEE5007DE220 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9ED416371CF3BEE5007DE220 /* facebook-clone-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebook-clone-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED4163A1CF3BEE5007DE220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ED4163C1CF3BEE5007DE220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ED4163F1CF3BEE5007DE220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ED416421CF3BEE5007DE220 /* facebook_clone_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = facebook_clone_app.xcdatamodel; sourceTree = "<group>"; };
+		9ED416441CF3BEE5007DE220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ED416471CF3BEE5007DE220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ED416491CF3BEE5007DE220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ED416341CF3BEE5007DE220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ED4162E1CF3BEE5007DE220 = {
+			isa = PBXGroup;
+			children = (
+				9ED416391CF3BEE5007DE220 /* facebook-clone-app */,
+				9ED416381CF3BEE5007DE220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED416381CF3BEE5007DE220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ED416371CF3BEE5007DE220 /* facebook-clone-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED416391CF3BEE5007DE220 /* facebook-clone-app */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4163A1CF3BEE5007DE220 /* AppDelegate.swift */,
+				9ED4163C1CF3BEE5007DE220 /* ViewController.swift */,
+				9ED4163E1CF3BEE5007DE220 /* Main.storyboard */,
+				9ED416441CF3BEE5007DE220 /* Assets.xcassets */,
+				9ED416461CF3BEE5007DE220 /* LaunchScreen.storyboard */,
+				9ED416491CF3BEE5007DE220 /* Info.plist */,
+				9ED416411CF3BEE5007DE220 /* facebook_clone_app.xcdatamodeld */,
+			);
+			path = "facebook-clone-app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ED416361CF3BEE5007DE220 /* facebook-clone-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED4164C1CF3BEE5007DE220 /* Build configuration list for PBXNativeTarget "facebook-clone-app" */;
+			buildPhases = (
+				9ED416331CF3BEE5007DE220 /* Sources */,
+				9ED416341CF3BEE5007DE220 /* Frameworks */,
+				9ED416351CF3BEE5007DE220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "facebook-clone-app";
+			productName = "facebook-clone-app";
+			productReference = 9ED416371CF3BEE5007DE220 /* facebook-clone-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ED4162F1CF3BEE5007DE220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Quinto Cossio";
+				TargetAttributes = {
+					9ED416361CF3BEE5007DE220 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N6T5M3C2BH;
+					};
+				};
+			};
+			buildConfigurationList = 9ED416321CF3BEE5007DE220 /* Build configuration list for PBXProject "facebook-clone-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ED4162E1CF3BEE5007DE220;
+			productRefGroup = 9ED416381CF3BEE5007DE220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ED416361CF3BEE5007DE220 /* facebook-clone-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ED416351CF3BEE5007DE220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED416481CF3BEE5007DE220 /* LaunchScreen.storyboard in Resources */,
+				9ED416451CF3BEE5007DE220 /* Assets.xcassets in Resources */,
+				9ED416401CF3BEE5007DE220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED416331CF3BEE5007DE220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED4163D1CF3BEE5007DE220 /* ViewController.swift in Sources */,
+				9ED416431CF3BEE5007DE220 /* facebook_clone_app.xcdatamodeld in Sources */,
+				9ED4163B1CF3BEE5007DE220 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ED4163E1CF3BEE5007DE220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED4163F1CF3BEE5007DE220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ED416461CF3BEE5007DE220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED416471CF3BEE5007DE220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ED4164A1CF3BEE5007DE220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ED4164B1CF3BEE5007DE220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ED4164D1CF3BEE5007DE220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "facebook-clone-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tripapp.facebook-clone-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9ED4164E1CF3BEE5007DE220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "facebook-clone-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tripapp.facebook-clone-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ED416321CF3BEE5007DE220 /* Build configuration list for PBXProject "facebook-clone-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED4164A1CF3BEE5007DE220 /* Debug */,
+				9ED4164B1CF3BEE5007DE220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED4164C1CF3BEE5007DE220 /* Build configuration list for PBXNativeTarget "facebook-clone-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED4164D1CF3BEE5007DE220 /* Debug */,
+				9ED4164E1CF3BEE5007DE220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9ED416411CF3BEE5007DE220 /* facebook_clone_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9ED416421CF3BEE5007DE220 /* facebook_clone_app.xcdatamodel */,
+			);
+			currentVersion = 9ED416421CF3BEE5007DE220 /* facebook_clone_app.xcdatamodel */;
+			path = facebook_clone_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9ED4162F1CF3BEE5007DE220 /* Project object */;
+}
