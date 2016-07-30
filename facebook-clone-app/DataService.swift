@@ -17,9 +17,14 @@ class DataService{
     
     static let ds = DataService()
     
+    //DB References
     private var _REF_BASE = URL_BASE
     private var _REF_POSTS = URL_BASE.child("posts")
     private var _REF_USERS = URL_BASE.child("users")
+    
+    //Storage references
+    private var _REF_POST_IMAGES = STORAGE_REF.child("post-pics")
+    //private var _REF_PROFILE_IMAGES = STORAGE_REF.child("")
     
     
     var REF_BASE:FIRDatabaseReference{
@@ -32,6 +37,10 @@ class DataService{
     
     var REF_USERS:FIRDatabaseReference{
         return _REF_USERS
+    }
+    
+    var REF_POST_IMAGES: FIRStorageReference{
+        return _REF_POST_IMAGES
     }
     
     //Agarramos el usuario que esta actualmente usando la app

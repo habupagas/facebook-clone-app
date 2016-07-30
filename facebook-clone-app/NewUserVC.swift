@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 
 
+
 class NewUserVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var profileImg: CustomImageRoundCorners!
@@ -69,7 +70,11 @@ class NewUserVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
                         if let profileImageUrl = metadata?.downloadURL()?.absoluteString where metadata?.downloadURL()?.absoluteString != nil {
                             
                             userInfo["profileImageUrl"] = profileImageUrl
+                            
+                            
                             print(metadata?.downloadURL())
+                            
+                            
                         }
                     
                         let userReference = DataService.ds.REF_USERS_CURRENT
@@ -111,6 +116,7 @@ class NewUserVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
             
             profileImg.image = selectedImage
             addImageBtn.enabled = false
+            addImageBtn.hidden = true
         }
         
         imagepicker.dismissViewControllerAnimated(true, completion: nil)

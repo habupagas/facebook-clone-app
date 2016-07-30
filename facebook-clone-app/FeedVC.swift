@@ -24,6 +24,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     var imageSelected = false
     
     static var imageCache = NSCache()   //Static: Solo hace una instance global de la var
+    //static var imageCache: Cache<NSString, UIImage> = Cache()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +53,8 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
                         let key = snap.key
                         let post = Post(postKey: key, dictionary: postDict)
                         self.posts.append(post)
+                        
+                        
                     }
                 }
                 
@@ -81,14 +84,22 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
             
             var img:UIImage?
             
+            
             //Si existe un url, agarra la imagen del cache. El cache es como un dictionary (keys y values). La url va a ser la key
+            
+            
             if let url = post.imageUrl{
                 img = FeedVC.imageCache.objectForKey(url) as? UIImage
             }
             
+            
+            
             cell.configureCell(post, img: img)
             
             return cell
+            
+            
+ 
         }else{
             
             return PostCell()
@@ -194,7 +205,8 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
         var post: Dictionary<String, AnyObject> = [
             
             "description": postTextFld.text!,
-            "likes": 0
+            "likes": 0,
+            "user_Id": NSUserDefaults.standardUserDefaults().valueForKey(KEY_UID)!
         
         ]
         
@@ -207,6 +219,16 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
         //Guardamos en firebase el post en la rama "posts". Haciendo un nuevo post con un id nuevo.
         let firebasePost = DataService.ds.REF_POSTS.childByAutoId()
         firebasePost.setValue(post)
+        
+        //Agarramos de la rama "posts" el postId y lo guardamos en la rama "users" adentro de el currentUser
+        firebasePost.observeSingleEventOfType(.Value, withBlock: {snapshot in
+            if let postId = snapshot.key as? String{
+                DataService.ds.REF_USERS_CURRENT.child("posts").child(postId).setValue(true)
+            }
+        
+        })
+        
+        
         
         postTextFld.text = ""
         imageSelector.image = UIImage(named: "camera")

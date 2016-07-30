@@ -33,6 +33,7 @@
 		9ED416711CF93B90007DE220 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED416701CF93B90007DE220 /* FBSDKShareKit.framework */; };
 		9ED416731CFD2EFF007DE220 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED416721CFD2EFF007DE220 /* FeedVC.swift */; };
 		9ED416751CFE73CE007DE220 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED416741CFE73CE007DE220 /* PostCell.swift */; };
+		9EFB096D1D4AEC3600128B4D /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB096C1D4AEC3500128B4D /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		9ED416701CF93B90007DE220 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		9ED416721CFD2EFF007DE220 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		9ED416741CFE73CE007DE220 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		9EFB096C1D4AEC3500128B4D /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		E1D2F50A3C043C808C7B9229 /* Pods-facebook-clone-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-clone-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-clone-app/Pods-facebook-clone-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				9ECD2E451D09037900B9B5B7 /* Post.swift */,
+				9EFB096C1D4AEC3500128B4D /* Users.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				9ED416631CF682FA007DE220 /* CustomTextField.swift in Sources */,
 				9ED4165F1CF3E544007DE220 /* CustomView.swift in Sources */,
 				9E12C8571D46D2B4000A2638 /* NewUserVC.swift in Sources */,
+				9EFB096D1D4AEC3600128B4D /* Users.swift in Sources */,
 				9ED4163D1CF3BEE5007DE220 /* ViewController.swift in Sources */,
 				9ED416611CF3E69B007DE220 /* CustomButton.swift in Sources */,
 				9ED416431CF3BEE5007DE220 /* facebook_clone_app.xcdatamodeld in Sources */,
